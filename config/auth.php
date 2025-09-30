@@ -41,7 +41,8 @@ return [
             'provider' => 'users',
         ],
         'api' => [
-            'deriver' => 'jwt',
+            // Fix the spelling here: 'driver'
+            'driver' => 'jwt',
             'provider' => 'users',
         ]
     ],
